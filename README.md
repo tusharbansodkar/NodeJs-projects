@@ -6,6 +6,10 @@ This folder contains various practice projects built with Node.js to learn and e
 
 - **folderInfo** - A utility that displays information about folders (subdirectory count, file count, and path details)
 
+## URL
+
+https://github.com/tusharbansodkar/NodeJs-projects/tree/main/folderInfo
+
 ## Getting Started
 
 Each project folder contains its own README.md with specific instructions on how to run that particular project.
