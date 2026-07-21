@@ -5,6 +5,8 @@ This folder contains various practice projects built with Node.js to learn and e
 ## Projects
 
 - **folderInfo** - A utility that displays information about folders (subdirectory count, file count, and path details)
+- **fileCounter** - A utility that counts words, lines, and characters in a text file
+- **NotesCLI** - A command-line notes app for adding, listing, deleting, and updating notes
 
 ## URL
 
