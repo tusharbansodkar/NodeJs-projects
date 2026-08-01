@@ -7,6 +7,7 @@ This folder contains various practice projects built with Node.js to learn and e
 - **folderInfo** - A utility that displays information about folders (subdirectory count, file count, and path details)
 - **fileCounter** - A utility that counts words, lines, and characters in a text file
 - **CountdownTimer** - A command-line countdown timer that accepts seconds, minutes, or hours and shows a live progress bar
+- **FileOrganizer** - A command-line utility that groups files in a directory into category folders by extension
 - **NotesCLI** - A command-line notes app for adding, listing, deleting, and updating notes
 
 ## URL
