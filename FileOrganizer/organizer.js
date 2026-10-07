@@ -17,10 +17,10 @@ async function organizeFilesByExt(absolutePath, entries) {
 
       const sourcePath = path.join(absolutePath, entry.name);
       const targetDir = path.join(absolutePath, folder);
+      await fs.mkdir(targetDir, { recursive: true });
+
       let targetPath = path.join(targetDir, entry.name);
       let counter = 1;
-
-      await fs.mkdir(targetDir, { recursive: true });
 
       while (true) {
         try {
@@ -32,7 +32,11 @@ async function organizeFilesByExt(absolutePath, entries) {
           );
           counter++;
         } catch (err) {
-          break;
+          if (err.code === "ENOENT") {
+            break;
+          }
+
+          throw err;
         }
       }
 
