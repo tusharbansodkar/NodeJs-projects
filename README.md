@@ -9,6 +9,7 @@ This folder contains various practice projects built with Node.js to learn and e
 - **CountdownTimer** - A command-line countdown timer that accepts seconds, minutes, or hours and shows a live progress bar
 - **FileOrganizer** - A command-line utility that groups files in a directory into category folders by extension
 - **NotesCLI** - A command-line notes app for adding, listing, deleting, and updating notes
+- **log-analyzer** - A utility that parses log files, summarizes severity counts, and reports the most recent error
 
 ## URL
 
